@@ -1,0 +1,20 @@
+@import url("./reset.css");
+@import url("./styles/header.css");
+
+:root {
+    --branco: #FFFFFF;
+    --vermelho: #8E2424;
+    --vermelho-fundo-botao: #8E24240D;
+    --cinza-logo: #3A404E;
+    --cinza-titulo: #101828;
+    --cinza-texto: #667085;
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}

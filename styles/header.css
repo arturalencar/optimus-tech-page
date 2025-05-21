@@ -1,0 +1,47 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.container__titulo {
+    font-size: 18px;
+    color: var(--cinza-logo);
+    line-height: 24px;
+}
+
+.lista__menu {
+    display: flex;
+}
+
+.lista__item {
+    padding: 1em 2em;
+}
+
+.lista__link {
+    color: var(--cinza-texto);
+    line-height: 24px;
+}
+
+.container__botao {
+    padding: 0.8em 1.2em;
+    border-radius: 8px;
+}
+
+.container__botao--login {
+    color: var(--cinza-texto);
+}
+
+.container__botao--cadastro {
+    color: var(--branco);
+    background-color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+}
