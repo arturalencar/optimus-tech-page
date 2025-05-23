@@ -1,10 +1,13 @@
 @import url("./reset.css");
 @import url("./styles/header.css");
+@import url("./styles/banner.css");
+@import url("./styles/metricas.css");
+@import url("./styles/vagas.css");
 
 :root {
     --branco: #FFFFFF;
     --vermelho: #8E2424;
-    --vermelho-fundo-botao: #8E24240D;
+    --vermelho-fundo: #8E24240D;
     --cinza-logo: #3A404E;
     --cinza-titulo: #101828;
     --cinza-texto: #667085;
@@ -13,6 +16,8 @@
 }
 
 body {
+    width: 100%;
+    height: 100vh;
     background-color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;

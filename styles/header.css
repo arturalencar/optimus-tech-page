@@ -15,11 +15,11 @@
 .container__titulo {
     font-size: 18px;
     color: var(--cinza-logo);
-    line-height: 24px;
 }
 
 .lista__menu {
     display: flex;
+
 }
 
 .lista__item {
@@ -28,16 +28,25 @@
 
 .lista__link {
     color: var(--cinza-texto);
-    line-height: 24px;
+}
+
+.lista__link:hover {
+    color: var(--vermelho);
+    transition: color 0.2s ease-in-out;
 }
 
 .container__botao {
     padding: 0.8em 1.2em;
-    border-radius: 8px;
-}
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
 
-.container__botao--login {
     color: var(--cinza-texto);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1em;
+    background-color: var(--branco);
+
 }
 
 .container__botao--cadastro {
@@ -45,3 +54,4 @@
     background-color: var(--vermelho);
     border: 1px solid var(--vermelho);
 }
+
