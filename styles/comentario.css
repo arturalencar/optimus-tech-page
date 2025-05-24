@@ -1,0 +1,61 @@
+.comentario {
+    padding: 2em 2em 4em 2em;
+    
+
+}
+
+.comentario__container {
+    padding: 3em 0;
+    margin: 0 auto;
+    background-color: var(--vermelho-comentario);
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.comentario__titulo {
+    font-size: 0.875em;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.comentario__texto {
+    font-size: 1.7em;
+    font-weight: 500;
+    line-height: 122%;
+    letter-spacing: -0.72;
+    color: var(--cinza-titulo);
+
+    margin: 0.75em 0 1.5em 0;
+    width: 80%;
+}
+
+.comentario__usuario-avatar {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.comentario__usuario-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.comentario__usuario-nome {
+    font-weight: 500;
+    color: var(--cinza-titulo);
+    line-height: 150%;
+    
+    margin: 1em 0 0.3em 0;
+}
+
+.comentario__usuario-cargo {
+    font-size: 0.875em;
+    color: var(--cinza-texto);
+    
+}
