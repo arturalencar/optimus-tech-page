@@ -14,7 +14,7 @@
 
 .talentos__subtitulo {
     padding: 0.3em 1em;
-    background-color: var(--vermelho-fundo);
+    background-color: var(--vermelho-subtitulo);
     color: var(--vermelho);
     border-radius: 1em;
 }
@@ -34,7 +34,7 @@
 }
 
 .talentos__imagem {
-    width: 80%;
+    width: 100%;
 }
 
 .vagas__container {

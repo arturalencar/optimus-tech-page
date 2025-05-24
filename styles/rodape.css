@@ -1,0 +1,65 @@
+.rodape {
+    background-color: var(--cinza-fundo);
+    padding: 4em 0 3em 0;
+    text-align: center;
+}
+
+.rodape__titulo {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: var(--cinza-titulo);
+}
+
+.rodape__texto {
+    color: var(--cinza-texto);
+    font-size: 1.25em;
+    margin: 1.25em 0 2em 0;
+}
+
+.rodape__input {
+    padding: 0.75em 1em;
+    border-radius: 0.5em;
+    border: 1px solid var(--cinza-borda);
+    background: var(--branco);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+    width: 23em;
+}
+
+.rodape__input::placeholder {
+    color: var(--cinza-texto);
+    line-height: 150%;
+    font-family: var(--fonte-principal);
+    
+}
+.rodape__input:focus::placeholder {
+    color: transparent;
+}
+
+.rodape__input:focus {
+    border: none;
+}
+
+.rodape__botao {
+    padding: 0.75em 1.25em;
+    border: 1px solid var(--vermelho);
+    background: var(--vermelho);
+    border-radius: 0.5em;
+    color: var(--branco);
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    cursor: pointer;
+
+    margin-left: 1em;
+}
+
+.rodape__botao:active {
+    transform: scale(0.9);
+    transition: transform 0.2s ease; 
+    
+}
+
+.rodape__direitos {
+    color: var(--cinza-texto);
+    margin: 2em 0;
+}

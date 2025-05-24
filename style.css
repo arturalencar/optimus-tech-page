@@ -4,6 +4,7 @@
 @import url("./styles/metricas.css");
 @import url("./styles/vagas.css");
 @import url("./styles/comentario.css");
+@import url("./styles/rodape.css");
 
 :root {
     --branco: #FFFFFF;
@@ -13,6 +14,7 @@
     --cinza-titulo: #101828;
     --cinza-texto: #667085;
     --cinza-borda: #EAECF0;
+    --cinza-fundo: #F9FAFB;
     --vermelho-comentario: #C3191908;
 
     --fonte-principal: "Inter", sans-serif;
