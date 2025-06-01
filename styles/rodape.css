@@ -37,7 +37,9 @@
 }
 
 .rodape__input:focus {
-    border: none;
+    outline: none;
+    border: 1px solid var(--vermelho);
+    box-shadow: 0 0 0 2px rgba(255, 63, 63, 0.15);
 }
 
 .rodape__botao {

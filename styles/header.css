@@ -19,7 +19,6 @@
 
 .lista__menu {
     display: flex;
-
 }
 
 .lista__item {
@@ -28,14 +27,33 @@
 
 .lista__link {
     color: var(--cinza-texto);
+    padding-bottom: 0.2em;
+    position: relative;
+    transition: color 0.2s ease-in-out;
+}
+
+.lista__link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-bottom: 2px solid var(--vermelho);
+    transform: scaleX(0);
+    transition: transform 0.3s cubic-bezier(.4,0,.2,1);
+    pointer-events: none;
+}
+
+.lista__link:hover::after {
+    transform: scaleX(1);
 }
 
 .lista__link:hover {
     color: var(--vermelho);
-    transition: color 0.2s ease-in-out;
 }
 
 .container__botao {
+    position: relative;
+    overflow: hidden;
+
     padding: 0.8em 1.2em;
     border-radius: 0.5em;
     border: none;
@@ -46,7 +64,21 @@
     font-weight: 500;
     font-size: 1em;
     background-color: var(--branco);
+}
 
+.container__botao::after {
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleY(0);
+    transition: transform 0.5s cubic-bezier(.4,0,.2,1);
+}
+
+.container__botao:hover::after {
+    transform: scaleY(1);
+    border-bottom: 2px solid var(--vermelho);
+    border-top: 2px solid var(--vermelho);
+    border-radius: 0.5em;
 }
 
 .container__botao--cadastro {
@@ -54,4 +86,3 @@
     background-color: var(--vermelho);
     border: 1px solid var(--vermelho);
 }
-
